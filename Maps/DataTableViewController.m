@@ -16,8 +16,9 @@ NSArray*locations;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+    [self.tableView registerClass:[CoordinatesCustomCell class] forCellReuseIdentifier:@"CoordinatesCustomCell"];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
     
     
     
