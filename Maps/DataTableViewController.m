@@ -46,18 +46,9 @@ NSArray*locations;
 
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
  CoordinatesCustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CoordinatesCustomCell" forIndexPath:indexPath];
+     cell.latitude.text = @"SDSD";
+     cell.longitude.text = @"SDSDKLSDKLSD";
      
-     FIRDatabaseReference *rootRef= [[FIRDatabase database] reference];
-     FIRDatabaseQuery*selectedLocations = [rootRef child:@"selected-locations"] ;
-     [rootRef observeEventType:FIRDataEventTypeChildAdded withBlock:^(FIRDataSnapshot*snapshot){
-         locations=snapshot.value;
-             }];
-     cell.latitude.text = @"SDSDS";
-   
-     cell.longitude.text =@"SDSD";
-     cell.index.text = @"5";
-     
- 
  // Configure the cell...
  
  return cell;

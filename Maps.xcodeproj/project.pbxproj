@@ -18,7 +18,7 @@
 		A1B918F31D0688C60068A2F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B918F21D0688C60068A2F7 /* MapKit.framework */; };
 		A1B918FD1D070E7C0068A2F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1B918FC1D070E7C0068A2F7 /* GoogleService-Info.plist */; };
 		A1B919001D070F930068A2F7 /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B918FF1D070F930068A2F7 /* DataTableViewController.m */; };
-		A1B919051D0711720068A2F7 /* CoordinatesCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B919041D0711720068A2F7 /* CoordinatesCustomCell.m */; };
+		A1B919081D07D4280068A2F7 /* CoordinatesCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B919071D07D4280068A2F7 /* CoordinatesCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,8 @@
 		A1B918FC1D070E7C0068A2F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A1B918FE1D070F930068A2F7 /* DataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewController.h; sourceTree = "<group>"; };
 		A1B918FF1D070F930068A2F7 /* DataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewController.m; sourceTree = "<group>"; };
-		A1B919011D07101F0068A2F7 /* CoordinatesCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatesCustomCell.h; sourceTree = "<group>"; };
-		A1B919041D0711720068A2F7 /* CoordinatesCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoordinatesCustomCell.m; path = "/Users/Nilay/Desktop/Map Excercise/Map Excercise/../../../.Trash/Map Excercise/CoordinatesCustomCell.m"; sourceTree = "<absolute>"; };
+		A1B919061D07D4280068A2F7 /* CoordinatesCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatesCustomCell.h; sourceTree = "<group>"; };
+		A1B919071D07D4280068A2F7 /* CoordinatesCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatesCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +135,8 @@
 		A1B918BC1D06855F0068A2F7 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				A1B919011D07101F0068A2F7 /* CoordinatesCustomCell.h */,
-				A1B919041D0711720068A2F7 /* CoordinatesCustomCell.m */,
+				A1B919061D07D4280068A2F7 /* CoordinatesCustomCell.h */,
+				A1B919071D07D4280068A2F7 /* CoordinatesCustomCell.m */,
 				A1B918FE1D070F930068A2F7 /* DataTableViewController.h */,
 				A1B918FF1D070F930068A2F7 /* DataTableViewController.m */,
 				A1B918C01D06855F0068A2F7 /* AppDelegate.h */,
@@ -367,7 +367,7 @@
 				A1B918C51D06855F0068A2F7 /* ViewController.m in Sources */,
 				A1B919001D070F930068A2F7 /* DataTableViewController.m in Sources */,
 				A1B918C21D06855F0068A2F7 /* AppDelegate.m in Sources */,
-				A1B919051D0711720068A2F7 /* CoordinatesCustomCell.m in Sources */,
+				A1B919081D07D4280068A2F7 /* CoordinatesCustomCell.m in Sources */,
 				A1B918BF1D06855F0068A2F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

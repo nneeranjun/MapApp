@@ -67,8 +67,8 @@
 }
 -(void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{
     searchBar.showsCancelButton=FALSE;
-    leftButton = [[UIBarButtonItem alloc] initWithTitle: @"Data" style:UIBarStyleDefault target:self action:@selector(goToData:)];
-    rightButton=[[UIBarButtonItem alloc] initWithTitle: @"Save" style:UIBarStyleDefault target:self action:@selector(saveData:)];
+    UIBarButtonItem*leftButton = [[UIBarButtonItem alloc] initWithTitle: @"Data" style:UIBarStyleDefault target:self action:@selector(goToData)];
+    UIBarButtonItem*rightButton=[[UIBarButtonItem alloc] initWithTitle: @"Save" style:UIBarStyleDefault target:self action:@selector(saveData)];
     
     self.navigationItem.leftBarButtonItem=leftButton;
     self.navigationItem.rightBarButtonItem=rightButton;
@@ -82,8 +82,8 @@
     searchBar.resignFirstResponder;
     searchBar.showsCancelButton=FALSE;
     NSString*searchText = searchBar.text;
-    leftButton = [[UIBarButtonItem alloc] initWithTitle: @"Data" style:UIBarStyleDefault target:self action:@selector(goToData:)];
-    rightButton = [[UIBarButtonItem alloc] initWithTitle: @"Save" style:UIBarStyleDefault target:self action:@selector(saveData:)];
+    leftButton = [[UIBarButtonItem alloc] initWithTitle: @"Data" style:UIBarStyleDefault target:self action:@selector(goToData)];
+    rightButton = [[UIBarButtonItem alloc] initWithTitle: @"Save" style:UIBarStyleDefault target:self action:@selector(saveData)];
     self.navigationItem.leftBarButtonItem=leftButton;
     self.navigationItem.rightBarButtonItem=rightButton;
     
