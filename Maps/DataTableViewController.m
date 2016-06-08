@@ -46,8 +46,8 @@ NSArray*locations;
 
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
  CoordinatesCustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CoordinatesCustomCell" forIndexPath:indexPath];
-     cell.latitude.text = @"SDSD";
-     cell.longitude.text = @"SDSDKLSDKLSD";
+     cell.latitude.text = @"Hello";
+     cell.longitude.text = @"Hello";
      
  // Configure the cell...
  
